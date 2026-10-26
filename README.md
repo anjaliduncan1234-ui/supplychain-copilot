@@ -61,3 +61,5 @@ Zero denominators display "n/a".
 
 ## Five-minute presentation outline
 1 min problem and users · 1 min data inspection and the quirks found (no "High", 27 future-dated deliveries, source vs rule differences) · 1.5 min live demo · 1 min rules, KPIs and testing (19 tests) · 0.5 min limitations and next steps.
+## Live Demo
+[Open SupplyChain Copilot](https://verdant-starburst-f11b17.netlify.app)
