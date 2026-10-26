@@ -1,0 +1,21 @@
+PASS  1. Critical overdue order → escalation suggested first  [SC-0002]
+PASS  2. Missing documentation → request documents  [SC-0003 Missing Delivery Challan]
+PASS  3. Payment on hold → refer to finance  [SC-0077]
+PASS  4. Delivered order uses actual − promised; not overdue-open  [SC-0001 late 3d]
+PASS  5. Cancelled order excluded from all exception flags  [SC-0027]
+PASS  6. Order with no active exception → routine monitoring  [SC-0001]
+PASS  Multiple exceptions: all reasons shown, overdue action first  [SC-0081]
+PASS  Promised date equal to as-of is NOT overdue
+PASS  Promised date one day before as-of IS overdue
+PASS  Delivered with no actual date → lateDays null, not 0
+PASS  Zero denominators return null, not NaN/Infinity
+PASS  Changing as-of date changes overdue count
+PASS  KPI total/value  [₹2024454447.44]
+PASS  KPI open/overdue/doc/pay  [201/181/178/42]
+PASS  KPI high-risk and open value  [209/483]
+PASS  Rates computed from counts  [90.0% / 35.6% / 43.3%]
+PASS  No order double-counted: per-order exception count ≤ 3
+PASS  Dataset validation: structural checks pass  [Delivered actual date not after as-of date]
+PASS  Dataset validation: future-dated delivered records detected, not altered
+
+19 passed, 0 failed
